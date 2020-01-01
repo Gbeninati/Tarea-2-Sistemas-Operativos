@@ -1,3 +1,3 @@
 all:
 	javac OrdenarArreglo2.java
-	java OrdenarArreglo
+	java OrdenarArreglo2
