@@ -1,4 +1,3 @@
-import java.io.PrintWriter;
 import java.util.Scanner;
 import java.io.*;
 import java.util.*;
@@ -8,17 +7,19 @@ public class OrdenarArreglo2 {
   public static int[] a;
 
   /*****
-	* public static void merge(int [] a,int i,int m,int d)
-	******
-	* Metodo que se encarga de ordenar un arreglo utilizando el algoritmo de Merge Sort
-	******
-	* Input:
-	* int [] a: Corresponde al arrelgo a ordenar
-  * int i: Correspode a la posicion izquierda del arreglo
-	******
-	* Returns:
-	*   void
-	*****/
+  * public static void merge(int [] a,int i,int m,int d)
+  ******
+  * Metodo que se encarga de ordenar y unir los  subarreglos obtenidos de mergeSort.
+  ******
+  * Input:
+  * int [] a: Corresponde al arrelgo a ordenar
+  * int i: Correspode a la posicion inicial del subarreglo
+  * int m: Corresponde a la posicion de la mitad del subarreglo
+  * int d: Correspode a la posicion final del subarreglo
+  ******
+  * Returns:
+  *   void
+  *****/
   public static void merge(int [] a,int i,int m,int d){
     int derecha = m+1;
     while(i<=m && derecha <=d){
