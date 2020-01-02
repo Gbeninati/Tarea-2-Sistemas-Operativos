@@ -17,7 +17,7 @@ El programa se beneficia en el uso de hebras ya que, el algoritmo Merge Sort se 
 en dividir el arreglo en sub-arreglos y luego ordenarlos, y al tener dos hebras, se puede
 dividir el arreglo en dos y que cada hebra ejecute de manera paralela Merge Sort para su mitad
 de arreglo. Notar que dependiendo del tamaño del arreglo se podrían realizar más divisiones
-y más hebras para una solución más eficiente.
+y más hebras para una solución más eficiente, en este caso en particular se utilizaron solamente 2 hebras.
 
 Al usar Merge Sort en cada mitad por separado y que se ordenen de manera paralela,
 el ordenamiento se hace muchísimo mas rápido, especialmente en arreglos con muchos
